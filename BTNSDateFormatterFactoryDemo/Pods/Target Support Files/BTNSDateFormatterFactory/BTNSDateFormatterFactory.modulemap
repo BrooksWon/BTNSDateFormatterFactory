@@ -1,0 +1,6 @@
+framework module BTNSDateFormatterFactory {
+  umbrella header "BTNSDateFormatterFactory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <BTNSDateFormatterFactory/BTNSDateFormatterFactory.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
 
 @end
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    //usage
+    NSDateFormatter *dateFormatter = [[BTNSDateFormatterFactory sharedFactory] dateFormatterWithFormat:@"yyyy-MM-dd HH:mm:ss.SSS" andLocaleIdentifier:@"zh_CN"];
+    
+    self.dateLabel.text = [dateFormatter stringFromDate:[NSDate date]];
 }
 
 

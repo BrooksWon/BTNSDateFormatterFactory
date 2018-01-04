@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA56EBA92AA29F146DEB37C /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75151A07C06A90D7BD8703F /* Pods_BTNSDateFormatterFactoryDemoTests.framework */; };
+		98108D951FFE46ED009C9B8D /* BTNSDateFormatterFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98108D961FFE46ED009C9B8D /* BTNSDateFormatterFactory.framework */; };
+		98108D971FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98108D981FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */; };
 		984E94C81FFD2BFB00733317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E94C71FFD2BFB00733317 /* AppDelegate.m */; };
 		984E94CB1FFD2BFB00733317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E94CA1FFD2BFB00733317 /* ViewController.m */; };
 		984E94CE1FFD2BFB00733317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984E94CC1FFD2BFB00733317 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		984E94D31FFD2BFB00733317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984E94D11FFD2BFB00733317 /* LaunchScreen.storyboard */; };
 		984E94D61FFD2BFB00733317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E94D51FFD2BFB00733317 /* main.m */; };
 		984E94E01FFD2BFB00733317 /* BTNSDateFormatterFactoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E94DF1FFD2BFB00733317 /* BTNSDateFormatterFactoryDemoTests.m */; };
+		B79941F6DA739F0DB693AD6E /* Pods_BTNSDateFormatterFactoryDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D75DFF1FFAE0F975874A2BF /* Pods_BTNSDateFormatterFactoryDemo.framework */; };
+		C2A3D34ADD615BF336A8A0FE /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98108D981FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D75DFF1FFAE0F975874A2BF /* Pods_BTNSDateFormatterFactoryDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTNSDateFormatterFactoryDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487A427907BA600A8DD54C2F /* Pods-BTNSDateFormatterFactoryDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTNSDateFormatterFactoryDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemoTests/Pods-BTNSDateFormatterFactoryDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		60C2536F64DAB62355736727 /* Pods-BTNSDateFormatterFactoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTNSDateFormatterFactoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemo/Pods-BTNSDateFormatterFactoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		98108D931FFE462E009C9B8D /* BTNSDateFormatterFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BTNSDateFormatterFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98108D941FFE462E009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BTNSDateFormatterFactoryDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98108D961FFE46ED009C9B8D /* BTNSDateFormatterFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BTNSDateFormatterFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98108D981FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_BTNSDateFormatterFactoryDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		984E94C31FFD2BFB00733317 /* BTNSDateFormatterFactoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTNSDateFormatterFactoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984E94C61FFD2BFB00733317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		984E94C71FFD2BFB00733317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +52,9 @@
 		984E94DB1FFD2BFB00733317 /* BTNSDateFormatterFactoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTNSDateFormatterFactoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		984E94DF1FFD2BFB00733317 /* BTNSDateFormatterFactoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTNSDateFormatterFactoryDemoTests.m; sourceTree = "<group>"; };
 		984E94E11FFD2BFB00733317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC038CA9E54F9BE48BF67693 /* Pods-BTNSDateFormatterFactoryDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTNSDateFormatterFactoryDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemoTests/Pods-BTNSDateFormatterFactoryDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D403E08775592161AB0F82CF /* Pods-BTNSDateFormatterFactoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTNSDateFormatterFactoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemo/Pods-BTNSDateFormatterFactoryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F75151A07C06A90D7BD8703F /* Pods_BTNSDateFormatterFactoryDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTNSDateFormatterFactoryDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98108D971FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */,
+				98108D951FFE46ED009C9B8D /* BTNSDateFormatterFactory.framework in Frameworks */,
+				B79941F6DA739F0DB693AD6E /* Pods_BTNSDateFormatterFactoryDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +72,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA56EBA92AA29F146DEB37C /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */,
+				C2A3D34ADD615BF336A8A0FE /* Pods_BTNSDateFormatterFactoryDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		074966C23925C4BB397674C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98108D981FFE471C009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */,
+				98108D961FFE46ED009C9B8D /* BTNSDateFormatterFactory.framework */,
+				98108D931FFE462E009C9B8D /* BTNSDateFormatterFactory.framework */,
+				98108D941FFE462E009C9B8D /* Pods_BTNSDateFormatterFactoryDemoTests.framework */,
+				2D75DFF1FFAE0F975874A2BF /* Pods_BTNSDateFormatterFactoryDemo.framework */,
+				F75151A07C06A90D7BD8703F /* Pods_BTNSDateFormatterFactoryDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AB065D73A2D242D0E3E3C0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C2536F64DAB62355736727 /* Pods-BTNSDateFormatterFactoryDemo.debug.xcconfig */,
+				D403E08775592161AB0F82CF /* Pods-BTNSDateFormatterFactoryDemo.release.xcconfig */,
+				CC038CA9E54F9BE48BF67693 /* Pods-BTNSDateFormatterFactoryDemoTests.debug.xcconfig */,
+				487A427907BA600A8DD54C2F /* Pods-BTNSDateFormatterFactoryDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		984E94BA1FFD2BFB00733317 = {
 			isa = PBXGroup;
 			children = (
 				984E94C51FFD2BFB00733317 /* BTNSDateFormatterFactoryDemo */,
 				984E94DE1FFD2BFB00733317 /* BTNSDateFormatterFactoryDemoTests */,
 				984E94C41FFD2BFB00733317 /* Products */,
+				3AB065D73A2D242D0E3E3C0D /* Pods */,
+				074966C23925C4BB397674C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 984E94E41FFD2BFB00733317 /* Build configuration list for PBXNativeTarget "BTNSDateFormatterFactoryDemo" */;
 			buildPhases = (
+				95491DFEE2134BA80825D18B /* [CP] Check Pods Manifest.lock */,
 				984E94BF1FFD2BFB00733317 /* Sources */,
 				984E94C01FFD2BFB00733317 /* Frameworks */,
 				984E94C11FFD2BFB00733317 /* Resources */,
+				0F13F7AD6DAA18EEDB8A3369 /* [CP] Embed Pods Frameworks */,
+				C8F843EDBA12AA9007C13733 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 984E94E71FFD2BFB00733317 /* Build configuration list for PBXNativeTarget "BTNSDateFormatterFactoryDemoTests" */;
 			buildPhases = (
+				A4E37C73FD78BDC96A20D1FC /* [CP] Check Pods Manifest.lock */,
 				984E94D71FFD2BFB00733317 /* Sources */,
 				984E94D81FFD2BFB00733317 /* Frameworks */,
 				984E94D91FFD2BFB00733317 /* Resources */,
+				7AC06119EA8C633798E7F014 /* [CP] Embed Pods Frameworks */,
+				A5DA7B06CDBA4C13C2E84A0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,7 +204,7 @@
 				TargetAttributes = {
 					984E94C21FFD2BFB00733317 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					984E94DA1FFD2BFB00733317 = {
 						CreatedOnToolsVersion = 9.1;
@@ -199,6 +251,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F13F7AD6DAA18EEDB8A3369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemo/Pods-BTNSDateFormatterFactoryDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BTNSDateFormatterFactory/BTNSDateFormatterFactory.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BTNSDateFormatterFactory.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemo/Pods-BTNSDateFormatterFactoryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC06119EA8C633798E7F014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemoTests/Pods-BTNSDateFormatterFactoryDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95491DFEE2134BA80825D18B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTNSDateFormatterFactoryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E37C73FD78BDC96A20D1FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BTNSDateFormatterFactoryDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5DA7B06CDBA4C13C2E84A0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemoTests/Pods-BTNSDateFormatterFactoryDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F843EDBA12AA9007C13733 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTNSDateFormatterFactoryDemo/Pods-BTNSDateFormatterFactoryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		984E94BF1FFD2BFB00733317 /* Sources */ = {
@@ -355,32 +509,41 @@
 		};
 		984E94E51FFD2BFB00733317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C2536F64DAB62355736727 /* Pods-BTNSDateFormatterFactoryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BTNSDateFormatterFactoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.BTNSDateFormatterFactoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		984E94E61FFD2BFB00733317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D403E08775592161AB0F82CF /* Pods-BTNSDateFormatterFactoryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = BTNSDateFormatterFactoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BrooksWon.BTNSDateFormatterFactoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		984E94E81FFD2BFB00733317 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC038CA9E54F9BE48BF67693 /* Pods-BTNSDateFormatterFactoryDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +558,7 @@
 		};
 		984E94E91FFD2BFB00733317 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487A427907BA600A8DD54C2F /* Pods-BTNSDateFormatterFactoryDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
