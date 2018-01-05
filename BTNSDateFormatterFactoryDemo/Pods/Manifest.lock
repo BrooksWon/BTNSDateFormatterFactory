@@ -1,12 +1,12 @@
 PODS:
-  - BTNSDateFormatterFactory (0.1.1)
+  - BTNSDateFormatterFactory (0.1.3)
 
 DEPENDENCIES:
-  - BTNSDateFormatterFactory (= 0.1.1)
+  - BTNSDateFormatterFactory (= 0.1.3)
 
 SPEC CHECKSUMS:
-  BTNSDateFormatterFactory: b6e2003abe0c1ca9517373a7f8b7e9daf2105c3c
+  BTNSDateFormatterFactory: 0828960f70594daed5ba99605d59500ce66daa79
 
-PODFILE CHECKSUM: 209668de2446efb7ee62ddcd8e581f1af998fb90
+PODFILE CHECKSUM: 47088598fef5a268d361f32df9a167386623e65c
 
 COCOAPODS: 1.4.0.rc.1
