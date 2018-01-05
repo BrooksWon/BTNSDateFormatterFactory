@@ -30,7 +30,7 @@
 }
 
 - (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
 
