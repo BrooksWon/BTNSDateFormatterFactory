@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BTNSDateFormatterFactory'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Smart reuse of NSDateFormatter instances.'
   s.homepage         = 'https://github.com/BrooksWon/BTNSDateFormatterFactory'
   s.license          = {
