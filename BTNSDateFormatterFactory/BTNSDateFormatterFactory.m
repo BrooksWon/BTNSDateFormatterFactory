@@ -24,12 +24,13 @@
         loadedDataFormatters.delegate = self;
 
         [[NSNotificationCenter defaultCenter] addObserver:loadedDataFormatters selector:@selector(removeAllObjects) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:loadedDataFormatters selector:@selector(removeAllObjects) name:NSCurrentLocaleDidChangeNotification  object:nil];
     }
     return self;
 }
 
 - (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver];
 }
 
 
